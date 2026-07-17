@@ -99,7 +99,7 @@ Designed an interactive dashboard to visualize:
 
 # 📸 Dashboard Preview
 
-![Customer Shopping Behavior Dashboard](dashboard.png)
+![Customer Shopping Behavior Dashboard](dashboard.jpg)
 
 ---
 
