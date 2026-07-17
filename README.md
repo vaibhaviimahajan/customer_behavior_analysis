@@ -121,11 +121,3 @@ Designed an interactive dashboard to visualize:
 - Express Shipping is associated with higher purchase values.
 - Higher-rated products tend to attract more repeat purchases.
 
----
-
-## 👩‍💻 Author
-
-**Vaibhavi Mahajan**
-
-- LinkedIn
-- GitHub
