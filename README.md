@@ -1,42 +1,131 @@
-📊 Customer Behavior Analysis
-🔹 Overview
+# 🛍️ Customer Shopping Behavior Analysis
 
-This project focuses on analyzing customer data to uncover purchasing patterns, trends, and actionable insights. It demonstrates an end-to-end data analytics workflow, from data extraction to visualization and reporting, aimed at supporting data-driven business decisions.
+An end-to-end data analytics project that analyzes customer shopping behavior using **Python, PostgreSQL, SQL, and Power BI**. The project transforms raw retail transaction data into meaningful business insights through data cleaning, SQL analysis, and interactive dashboarding.
 
-📁 Dataset
-The dataset contains customer-related information such as transactions, demographics, and purchasing behavior. It was loaded and processed using Python and further analyzed using SQL for deeper insights.
+---
 
-🛠️ Tools & Technologies
-Python (Pandas, NumPy, Matplotlib, Seaborn)
-SQL (PostgreSQL)
-Power BI (Dashboard & visualization)
+## 📌 Overview
 
-⚙️ Project Steps
-Data Loading: Imported dataset into Python environment
-Data Cleaning: Handled missing values, duplicates, and inconsistencies
-EDA (Exploratory Data Analysis): Analyzed patterns, trends, and distributions
-SQL Analysis: Queried data using SQL for deeper insights
-Visualization: Created charts and graphs for better understanding
-Dashboard: Built an interactive Power BI dashboard
-Reporting: Summarized findings in a structured report and presentation
+This project analyzes **3,900 customer transactions** to uncover shopping patterns, customer preferences, subscription behavior, and revenue opportunities.
 
-📊 Dashboard
-An interactive Power BI dashboard was created to visualize:
-Customer segments
-Purchasing patterns
-Key performance metrics
+The project demonstrates the complete analytics workflow:
 
-📈 Results
-Identified high-value customer segments
-Discovered key purchasing trends
-Generated insights to improve marketing and retention strategies
+- 📊 Data Cleaning & Preprocessing using Python
+- 🗄️ Business Analysis using PostgreSQL & SQL
+- 📈 Interactive Dashboard Development using Power BI
+- 💡 Actionable Business Insights & Recommendations
 
-▶️ How to Run
-Clone the repository
-Open the Jupyter Notebook and run the Python scripts
-Set up a SQL database and execute the provided queries
-Open the Power BI file to explore the dashboard
-Review the final report and presentation for insights
+---
 
-📌 Conclusion
-This project showcases practical data analytics skills, including data cleaning, analysis, visualization, and reporting, making it a strong demonstration of end-to-end analytics capabilities.
+## 🛠️ Technologies Used
+
+- Python (Pandas, NumPy)
+- PostgreSQL
+- SQL
+- Power BI
+- Jupyter Notebook
+
+---
+
+## 📂 Repository Contents
+
+| File | Description |
+|------|-------------|
+| `Customer_Shopping_Behavior_Analysis.ipynb` | Data cleaning, preprocessing, and exploratory analysis using Python |
+| `customer_behavior_sql_queries.sql` | SQL queries for business analysis |
+| `customer_behavior_dashboard.pbix` | Interactive Power BI dashboard |
+| `customer_shopping_behavior.csv` | Customer shopping dataset |
+| `dashboard.png` | Dashboard preview image |
+
+---
+
+## 📊 Dataset Summary
+
+- **Records:** 3,900
+- **Features:** 18
+- **Missing Values:** 37 (Review Rating)
+
+### Key Attributes
+
+- Customer Demographics
+- Purchase Amount
+- Product Category
+- Subscription Status
+- Shipping Type
+- Discounts & Promo Codes
+- Product Ratings
+- Purchase Frequency
+
+---
+
+## 🔄 Project Workflow
+
+### 1️⃣ Data Preparation (Python)
+
+- Loaded dataset using Pandas
+- Cleaned missing values
+- Imputed missing review ratings
+- Standardized column names
+- Performed feature engineering
+
+### 2️⃣ Business Analysis (SQL)
+
+Performed analysis including:
+
+- Revenue by Gender
+- Revenue by Age Group
+- Subscribers vs Non-Subscribers
+- Customer Segmentation
+- High-Spending Discount Users
+- Shipping Type Comparison
+- Top Rated Products
+- Repeat Buyer Analysis
+- Discount Dependency
+- Top Products by Category
+
+### 3️⃣ Dashboard (Power BI)
+
+Designed an interactive dashboard to visualize:
+
+- Revenue KPIs
+- Customer Demographics
+- Product Categories
+- Subscription Trends
+- Shipping Analysis
+- Spending Patterns
+- Age Group Distribution
+
+---
+
+# 📸 Dashboard Preview
+
+![Customer Shopping Behavior Dashboard](dashboard.png)
+
+---
+
+## 📈 Dashboard KPIs
+
+- 👥 **Customers:** 3.9K
+- 💰 **Average Purchase:** $59.76
+- ⭐ **Average Rating:** 3.75
+- 📦 **Subscribers:** 27%
+- 🛒 **Non-Subscribers:** 73%
+
+---
+
+## 💡 Key Insights
+
+- Subscribers spend more per purchase than non-subscribers.
+- Clothing and Accessories generate the highest revenue.
+- Young Adults (25–35) contribute the highest number of purchases.
+- Express Shipping is associated with higher purchase values.
+- Higher-rated products tend to attract more repeat purchases.
+
+---
+
+## 👩‍💻 Author
+
+**Vaibhavi Mahajan**
+
+- LinkedIn
+- GitHub
